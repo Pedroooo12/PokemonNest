@@ -11,9 +11,11 @@ async function bootstrap() {
     //solo deja la data que estamos esperando
     whitelist: true,
     forbidNonWhitelisted: true,
+    transform: true,
     // Excluye los campos undefined
       transformOptions: {
-        exposeUnsetFields: false
+        exposeUnsetFields: false,
+        enableImplicitConversion: true
       }
   }));
 
