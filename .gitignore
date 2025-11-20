@@ -6,6 +6,9 @@
 # Mongo Docker compose
 /mongo
 
+#Env
+.env
+
 # Logs
 logs
 *.log
