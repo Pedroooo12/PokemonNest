@@ -8,6 +8,7 @@
 
 #Env
 .env
+.env.prod
 
 # Logs
 logs
